@@ -27,3 +27,10 @@ if(indice != -1){
   indice ++;
   console.log("Posizione cognome utente(partendo a contare da 1) ---> " + indice);
 }
+
+//trovo l'indice
+function findSurname(element){
+  return element == cognomeUtente;
+}
+
+console.log("cognome trovato tramite la funzione ---> " + cognomi.findIndex(findSurname));
